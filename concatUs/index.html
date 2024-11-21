@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us - Medical Equipment</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Medical Equipment</h1>
+    </header>
+    <div class="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../productList/index.html">Products</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="../customers/index.html">customers</a></li>
+      </ul>
+    </div>
+    <main>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          Get in touch with us to learn more about our products and services or
+          to place an order.
+        </p>
+        <form action="/submit" method="post">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p>
+          You can also reach us by phone at 555-555-5555 or by email at
+          info@medicalequipment.com
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright 2024 Medical Equipment</p>
+    </footer>
+  </body>
+</html>
